@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <style>
+            body{
+    margin: 0;
+    padding: 0;
+    background: url(https://st2.depositphotos.com/1013372/5796/i/450/depositphotos_57962491-stock-photo-coffee-beans-macro-on-a.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family:  sans-serif;
+}
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.loginbox input[type="submit"]
+{
+   border: none;
+   outline: none;
+   height: 40px;
+   background: rgb(160, 160, 164);
+   border-radius: 20px;
+   font-size: 18px;
+
+}
+ .loginbox input[type="submit"]:hover
+ {
+    cursor: pointer;
+    background: rgb(70, 63, 138);
+    color: 000;
+ }
+
+ .loginbox a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+ }
+
+ .loginbox a:hover{
+    color:cornflowerblue;
+ }
+        </style>
+        <body>
+
+        <div class="loginbox">
+            <img src="https://as1.ftcdn.net/v2/jpg/02/30/60/82/1000_F_230608264_fhoqBuEyiCPwT0h9RtnsuNAId3hWungP.jpg" class="Avatar" height="100px">
+            
+            <h1>login Here</h1>
+            <form>
+                <p>Username</p>
+                <input type="text" name="" placeholder="Enter Username">
+                <p>password</p>
+                <input type="password" name="" placeholder="Enter password">
+                <input type="submit" name="" value="Login">
+                <a href="#">Forgotten Password?</a><br>
+                <a href="#">Don't have an account?</a>
+
+
+            </form>
+        </div>
+             
+        </body>
+    </head>
+</html>
